@@ -1,0 +1,177 @@
+@CHARSET "UTF-8";
+body
+{
+	background-image:url("../img/background1.jpg");
+	width:inherit;
+	height: inherit;
+	font-family: "sans-serif";
+}
+img
+{
+	height:inherit;
+	width:100%;
+}
+a:LINK
+{
+	color: blue;
+	text-decoration: none;
+}
+a:ACTIVE {
+	color: blue;
+	text-decoration: none;
+	
+}
+a:VISITED {
+	color:blue;
+	text-decoration: none;
+	
+}
+a:HOVER {
+	color:aqua;
+	text-decoration: none;
+}
+#menu 
+{
+	width:500px;
+	height:300px;
+	
+}
+#menu td,th
+{
+	border-style: solid;
+}
+#opt
+{
+	background-color: yellow;
+	text-align: center;
+	font-size: 20px;
+}
+#opt:HOVER
+{
+	background-color: red;
+	text-align: center;
+	font-size: 20px;
+}
+#im
+{
+	background-color:red; 
+	height: 300px;
+	float: top;	
+}
+#mf
+{
+	position:inherit;
+	margin-top:20px;
+	float:bottom;
+}
+#sidebar
+{
+	float: left;
+	height:300%;
+	width:25%;
+	color:white;
+	border-radius: 10px 10px 10px 10px;
+	border: solid;
+	padding-bottom: 5%;
+	margin-top:5px; 
+}
+#ques
+{
+	background-color: #795548;
+	border-radius: 15px 50px;
+	padding: 20px;
+	box-shadow: 10px 10px 5px black;
+	
+	
+}
+#va
+{
+	width:100%;
+	margin-top:5px;
+	padding:10px; 
+}
+#insb
+{
+	margin: 5px;
+	margin-top:15%;
+	margin-left: 15%;
+}
+#maint
+{
+	color: #ffab91;
+}
+#resultV
+{
+	width:100%;
+	text-align:center;
+	border-style: solid;
+	border-collapse: collapse;
+	border-radius: 20px 20px 20px 20px;
+	border-color:white;
+}
+#resultV th
+{
+	background-color:red;
+	border-style: solid;
+	border-color:white;
+	color: #81D4FA;
+}
+#resultV td
+{
+	border-radius: 20px 20px 20px 20px;
+	border-style: solid;
+	
+}
+#result
+{
+	width:100%;
+	text-align:center;
+	border-style: solid;
+	border-collapse: collapse;
+	border-radius: 20px 20px 20px 20px;
+}
+#result th
+{
+	background-color:red;
+	border-style: solid;
+}
+#result td
+{
+	border-style: solid;
+	
+}
+#main
+{
+	color:white;
+	float:left	;
+	width:50%;
+	height:200%;
+	padding-left: 10px;
+	
+}
+#auth
+{
+	width:100%;
+}
+#addans
+{	
+	margin-top:5%;
+	position:inherit;	
+	float:left;
+}
+.ans
+{
+	background-color:#F57C00;
+	padding: 2px;
+	padding-left:5px;
+	margin: 10px;
+}div#ans
+{
+	background-color:#FFB74D;
+	border-radius: 15px 50px;
+	padding: 20px;
+	margin-top:20px; 
+	height: 200%;
+	box-shadow: 10px 10px 5px black;
+	
+}
